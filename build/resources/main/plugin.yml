@@ -1,0 +1,9 @@
+name: hongik
+version: '1.0'
+main: io.hongik.hongikcraft.Hongik
+api-version: '1.20'
+commands:
+  등록:
+    description: 학번을 읽어옵니다.
+  링크:
+    description: 링크들을 불러옵니다.
