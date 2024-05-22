@@ -3,7 +3,7 @@ package io.hongik.hongikcraft.Data;
 import java.sql.*;
 
 public class DataBase {
-    private instance = Hongik.getInstance();
+    private Hongik instance = Hongik.getInstance();
     
     private static Connection connection;
 
