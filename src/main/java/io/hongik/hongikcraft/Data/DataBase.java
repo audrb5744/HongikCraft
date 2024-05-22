@@ -8,7 +8,7 @@ public class DataBase {
     private static Connection connection;
 
     private final String host = instance.getMessageDataFile().getString("dataBase.host");
-    private final int port = instance.getMessageDataFile().getString("dataBase.port");
+    private final int port = instance.getMessageDataFile().getInt("dataBase.port");
     private final String username = instance.getMessageDataFile().getString("dataBase.id");
     private final String password = instance.getMessageDataFile().getString("dataBase.pw");
 
