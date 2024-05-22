@@ -1,8 +1,8 @@
 dataBase:
   host: "127.0.0.1";
-  port: 3306;
+  port: "3306";
   id: "main_";
-  password: "03023";
+  pw: "03023";
 
 joinMessage:
   message: §e반갑습니다!\n§f홍익대학교 마인크래프트 서버
