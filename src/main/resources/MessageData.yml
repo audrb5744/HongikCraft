@@ -1,3 +1,7 @@
+dataBase:
+  id:
+  password:
+
 joinMessage:
   message: §e반갑습니다!\n§f홍익대학교 마인크래프트 서버
 
