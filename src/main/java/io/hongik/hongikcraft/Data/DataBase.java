@@ -3,12 +3,14 @@ package io.hongik.hongikcraft.Data;
 import java.sql.*;
 
 public class DataBase {
+    private instance = Hongik.getInstance();
+    
     private static Connection connection;
 
-    private final String host = "127.0.0.1";
-    private final int port = 3306;
-    private final String username = "main_";
-    private final String password = "03023";
+    private final String host = instance.getMessageDataFile().getString("dataBase.host");
+    private final int port = instance.getMessageDataFile().getString("dataBase.port");
+    private final String username = instance.getMessageDataFile().getString("dataBase.id");
+    private final String password = instance.getMessageDataFile().getString("dataBase.pw");
 
     public Connection openConnection(){
         try {
